@@ -478,3 +478,12 @@ Suites.push(new Suite("Tentative 1.4 suite",
         }
     ]
 ));
+
+Suites.push(new Suite("WebGL Suite",
+    [
+        {
+            url: "webgl/fragment-hog.html",
+            name: "Fragment Hog"
+        }
+    ]
+));

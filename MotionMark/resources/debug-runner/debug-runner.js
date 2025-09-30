@@ -492,7 +492,7 @@ window.suitesManager = new class SuitesManager {
             if (!Utilities.stripUnwantedCharactersForURL(suite.name).match(suiteRegExp))
                 continue;
 
-            var test;
+            var test, suiteTest;
             for (var j = 0; j < suite.tests.length; ++j) {
                 suiteTest = suite.tests[j];
                 if (Utilities.stripUnwantedCharactersForURL(suiteTest.name).match(testRegExp)) {
